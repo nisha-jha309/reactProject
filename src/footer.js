@@ -31,16 +31,16 @@ function Footer() {
                         <a href='#'>Contact Us</a>
                     </div>
                 </div>
-                <div>
+                <div id='ContactUs'>
                     <h2>Contact Us</h2>
                     <div><div><i class="fa-solid fa-location-dot"></i></div><div><h5>Location</h5><p>Tirunelveli,TamilNadu.</p></div></div>
                     <div><div><i class="fa-solid fa-envelope"></i></div><div><h5>Email</h5><p>janaki2407@gmail.com</p></div></div>
                     <div><div><i class="fa-solid fa-phone"></i></div><div><h5>Call</h5><p>+91 7397139660</p></div></div>
                 </div>
-                <div>
+                <div id='newsletter'>
                     <h2>NewsLetter</h2>
                     <p>Subscribe to our NewsLetter to get important news, amazing offers and inside scoops</p>
-                    <div><input type="email" /><div><i class="fa-solid fa-paper-plane"></i></div></div>
+                    <div id='newsletterBox'><input type="email" placeholder='Enter your email'/><div><i class="fa-solid fa-paper-plane"></i></div></div>
                 </div>
             </div>
         </div>

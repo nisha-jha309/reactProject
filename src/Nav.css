@@ -47,4 +47,5 @@
     border-radius: var(--borderRadius);
     color:white;
     font-size:var(--btn-font-size);
+    font-size: 14px;
 }

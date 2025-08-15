@@ -35,7 +35,7 @@
 #Navinfo{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
-    gap:20px;
+    gap:5px;
 }
 #Navinfo-one>img{
 width:50px;
@@ -71,4 +71,53 @@ color:var(--btnActiveColor);
     text-decoration: none;
     color: black;
 }
-
+#links a::before{
+ font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: "\f054"; 
+    margin-right: 8px;
+    color: var(--btnActiveColor);
+}
+#ContactUs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#ContactUs>div{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+#ContactUs>div>div:nth-of-type(1) i{
+    font-size: 18px;
+}
+#ContactUs>div>div:nth-of-type(2){
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#ContactUs>div>div:nth-of-type(2) p{
+    font-size: 14px;
+}
+#newsletterBox{
+    display: flex;
+    margin-top: 20px;
+}
+#newsletterBox input{
+    padding:10px 40px ;
+    background-color: rgb(252, 210, 137);
+    border-radius: 9px 0px 0px 9px;
+    border: none;
+}
+#newsletterBox input:focus{
+    outline: none;
+}
+#newsletterBox div{
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btnActiveColor);
+    border-radius: 0 9px 9px 0;
+    color: white;
+}

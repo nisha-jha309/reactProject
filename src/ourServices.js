@@ -1,15 +1,20 @@
 import './ourServices.css';
+import ServiceImg from './serviceImg.png';
 import yimage1 from './Yoga.png';
 import yimage2 from './MeditationPose.png';
 import yimage3 from './Ayurveda.png';
 import yimage4 from './Health.png';
 function Ourservices(){
     return(
-        <div id='Ourservices-text'>
+        <div id='Ourservices'>
+            <div id='Ourservices-image'>
+                <img src={ServiceImg}/>
+            </div>
+                <div id='Ourservices-text'>
             <h3>Our Services</h3>
             <p>find your choice through how you change</p>
             <p>Meditation is a contemptive practice, engaged in across various religious and spiritual traditions as a means of quieting, focusing and transforming the mind</p>
-            <div id='service-section'>
+            <div id='services'>
                 <div className="service">
                     <img src={yimage1}/>
                     <h3>Yoga</h3>
@@ -32,6 +37,8 @@ function Ourservices(){
                 </div>
             </div>
         </div>
+        </div>
+
     )
 } 
 
