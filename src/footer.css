@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --borderValue: none;
+    --btnPadding: 10px 20px;
+    --btnActiveColor:  rgb(243, 10, 49);
+    --borderRadius: 9px;
+    --btn-font-size: 20px;
+}
+
+#footer{
+    background:linear-gradient(pink,white);
+    padding:60px;
+}
+#freeClasses{
+    display: flex;
+    justify-content: space-between;
+     padding-bottom:30px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+
+}
+#freeClassBtn{
+    border: var(--borderValue);
+    border-radius: var(--borderRadius);
+    padding: var(--btnPadding);
+    font-size:14px;
+    background-color:var(--btnActiveColor);
+    color: white;
+}
+#Navinfo{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:20px;
+}
+#Navinfo-one>img{
+width:50px;
+height: 50px;
+}
+#Navinfo>div>h2{
+    margin-bottom:20px;
+}
+#appLinks{
+display: flex;
+gap:9px;
+margin-top: 20px;
+}
+#appLinks a{
+    text-decoration: none;
+    padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 20px;
+border: 1px solid var(--btnActiveColor);
+}
+#appLinks a>i{
+color:var(--btnActiveColor);
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#links a{
+    text-decoration: none;
+    color: black;
+}
+

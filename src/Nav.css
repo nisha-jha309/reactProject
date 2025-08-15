@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --borderValue:none;
+    --btnPadding:10px 20px;
+    --btnActiveColor: rgb(243, 10, 49);
+    --borderRadius:9px;
+    --btn-font-size:20px;
+}
+#Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background-color: pink;
+}
+#meditationLogo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+#list{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+#list a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+#list a:hover{
+    color: rgb(243, 10, 49);
+}
+#list a.active{
+    color:  rgb(243, 10, 49);
+    text-decoration: underline;
+}
+#joinUs{
+    border:none;
+    padding: var(--btnPadding);
+    background-color: var(--btnActiveColor);
+    border-radius: var(--borderRadius);
+    color:white;
+    font-size:var(--btn-font-size);
+}
