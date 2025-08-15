@@ -5,6 +5,7 @@ import Navbar from "./Nav.js"
 import Lpsection1 from './lp-section1.js';
 import Lpsection2 from './lp-section2.js';
 import About from './aboutUs.js';
+import Ourservices from './ourServices.js';
 import Footer from './footer.js';
 import reportWebVitals from './reportWebVitals';
 
@@ -15,6 +16,7 @@ root.render(
     <Lpsection1 />
     <Lpsection2/>
     <About/>
+    <Ourservices/>
     <Footer/>
   </React.StrictMode>
 );
