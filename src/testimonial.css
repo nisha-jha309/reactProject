@@ -1,0 +1,70 @@
+#testimonialSection{
+    text-align: center;
+    padding: 30px 60px;
+}
+#testimonials{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-bottom:30px;
+    gap: 30px;
+}
+#testimonialSection>h3{
+    color: var(--btnActiveColor);
+    margin-bottom: 10px;
+}
+#testimonialSection>p{
+    font-size: 42px;
+    font-family: "playfair display",sans-serif;
+    font-style: bold;
+     margin-bottom: 30px;
+}
+.testimonial{
+    display: grid;
+    grid-template-columns:20% 80%;
+    border-radius: 9px;
+    background-color: white;
+    box-shadow:0 0 6px rgba(128, 128, 128, 0.418);
+    overflow: hidden;
+    height:150px;
+}
+.testimonial>div:nth-of-type(1){
+    background-color: var(--btnActiveColor);
+    position: relative;
+}
+.profilePic{
+    position: absolute;
+    top: 30%;
+    right:-20px;
+}
+.testimonial>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+.testimonial>div:nth-of-type(2) h2{
+    font-size:20px;
+    font-family: "playfair display",sans-serif;
+}
+.testimonial>div:nth-of-type(2) h5{
+    font-size:16px;
+}
+#moveBtn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+#backBtn,#forwardBtn{
+    border:50%;
+    border:1px solid var(--btnActiveColor);
+    color: var(--btnActiveColor);
+    background-color: transparent;
+    font-size:20px;
+    border-radius: 50%;
+    padding: 20px;
+}
+#backBtn:hover,#forwardBtn:hover{
+    background-color: var(--btnActiveColor);
+    border: none;
+    color:white;
+}

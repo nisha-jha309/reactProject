@@ -7,6 +7,8 @@ import Lpsection2 from './lp-section2.js';
 import About from './aboutUs.js';
 import Ourservices from './ourServices.js';
 import Ourgallery from './ourgallery.js';
+import Testimonial from './testimonial.js';
+import Ourblog from './ourBlog.js';
 import Footer from './footer.js';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +21,8 @@ root.render(
     <About/>
     <Ourservices/>
     <Ourgallery/>
+    <Testimonial/>
+    <Ourblog/>
     <Footer/>
   </React.StrictMode>
 );

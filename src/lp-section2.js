@@ -16,14 +16,14 @@ function Lpsection2(){
              <div className='program'>
                 <div><img src={yoga2}/></div>
                 <div>
-                    <h3>WorkOut Program</h3>
+                    <h3>WorkOut Planning</h3>
                     <p>Jain mediation and spiritual practices system were referred to salvation-path system.</p>
                 </div>
             </div>
              <div className='program'>
                 <div><img src={yoga3}/></div>
                 <div>
-                    <h3>WorkOut Program</h3>
+                    <h3>Health Care</h3>
                     <p>Jain mediation and spiritual practices system were referred to salvation-path system.</p>
                 </div>
             </div>
