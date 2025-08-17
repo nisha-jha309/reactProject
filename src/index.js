@@ -6,6 +6,7 @@ import Lpsection1 from './lp-section1.js';
 import Lpsection2 from './lp-section2.js';
 import About from './aboutUs.js';
 import Ourservices from './ourServices.js';
+import Instructor from './innstructor.js'
 import Ourgallery from './ourgallery.js';
 import Testimonial from './testimonial.js';
 import Ourblog from './ourBlog.js';
@@ -20,6 +21,7 @@ root.render(
     <Lpsection2/>
     <About/>
     <Ourservices/>
+    <Instructor/>
     <Ourgallery/>
     <Testimonial/>
     <Ourblog/>

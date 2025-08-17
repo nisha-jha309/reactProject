@@ -1,0 +1,21 @@
+#instructors{
+    padding:30px 60px;
+    text-align: center;
+}
+#instructors>h3{
+     color: var(--btnActiveColor);
+     margin-bottom: 10px;
+}
+#instructors>h4{
+     font-size: 42px;
+    font-family: "playfair display",sans-serif;
+    font-style: bold;
+     margin-bottom:10px;
+     text-transform: capitalize;
+}
+#instructors>p{
+    font-size:16px;
+    line-height: 1.8;
+    width: 50%;
+    margin: 0 auto;
+}
