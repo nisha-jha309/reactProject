@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from "./Nav.js"
+import Navbar from "./Nav.js";
 import Lpsection1 from './lp-section1.js';
 import Lpsection2 from './lp-section2.js';
 import About from './aboutUs.js';
